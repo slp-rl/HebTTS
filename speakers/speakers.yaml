@@ -1,0 +1,11 @@
+osim:
+  text-prompt: "אני משתדל מאוד שכל חסות תהיה מיוחדת ושונה"
+  audio-prompt: "osim.wav"
+
+geek:
+  text-prompt: "מביא הרבה מהסיבות"
+  audio-prompt: "geek.wav"
+
+shaul:
+  text-prompt: "ובשביל להבין למה מחיר הדלק כל כך עלה, צריך לחזור שנתיים אחורנית."
+  audio-prompt: "shaul.wav"
