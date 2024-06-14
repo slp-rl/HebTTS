@@ -455,6 +455,8 @@ class AudioTokenizer:
         return self.codec.decode(frames)
 
     def mbd_decode(self, frames: torch.Tensor) -> torch.Tensor:
+        print(frames)
+        print(frames.shape)
         return self.mbd.tokens_to_wav(frames)
 
 

@@ -29,7 +29,9 @@ You can try our model in the [google colab](https://colab.research.google.com/dr
 ## Installation
 
 
-### Download Model
+```bash
+git clone https://github.com/slp-rl/HebTTS.git
+```
 
 We publish our checkpoint
 in [google drive](https://drive.google.com/file/d/11NoOJzMLRX9q1C_Q4sX0w2b9miiDjGrv/view?usp=share_link).
