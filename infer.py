@@ -89,7 +89,7 @@ def infer(checkpoint_path, output_dir, texts, prompt_text, prompt_audio, top_k=5
 
         if args.mbd:
             samples = audio_tokenizer.mbd_decode(
-                encoded_frames
+                encoded_frames.transpose(2, 1)
             )
         else:
             samples = audio_tokenizer.decode(
