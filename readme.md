@@ -35,7 +35,7 @@ git clone https://github.com/slp-rl/HebTTS.git
 
 We publish our checkpoint
 in [google drive](https://drive.google.com/file/d/11NoOJzMLRX9q1C_Q4sX0w2b9miiDjGrv/view?usp=share_link).
-AR model trained for 1.2M steps and NAR model for 200K steps on HebDB.
+AR model trained for 1.2M steps and NAR model for 200K steps on [HebDB](https://pages.cs.huji.ac.il/adiyoss-lab/HebDB/).
 
 ```bash
 gdown https://drive.google.com/uc?id=11NoOJzMLRX9q1C_Q4sX0w2b9miiDjGrv
