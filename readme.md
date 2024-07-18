@@ -4,7 +4,7 @@ Inference code and model weights for the paper "A Language Modeling Approach to 
 2024).
 
 <p align="center">
-<a href='https://arxiv.org'><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a>
+<a href='https://arxiv.org/abs/2407.12206'><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a>
    <a href='https://pages.cs.huji.ac.il/adiyoss-lab/HebTTS/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> 
    <a href='https://colab.research.google.com/drive/1f3-6Dqbna9_hI5C9V4qTIG05dixW-r72?usp=sharing'><img src='https://colab.research.google.com/assets/colab-badge.svg'></a> 
    <a href='https://github.com/slp-rl/HebTTS'><img src='https://badges.aleen42.com/src/github.svg'></a> 
