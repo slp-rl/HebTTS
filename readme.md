@@ -104,14 +104,11 @@ specify wav files and transcription in same format.
 ## Citation
 
 ```bibtex
-@misc{roth2024languagemodelingapproachdiacriticfree,
-   title={A Language Modeling Approach to Diacritic-Free Hebrew TTS}, 
-   author={Amit Roth and Arnon Turetzky and Yossi Adi},
-   year={2024},
-   eprint={2407.12206},
-   archivePrefix={arXiv},
-   primaryClass={cs.CL},
-   url={https://arxiv.org/abs/2407.12206}, 
+@article{roth2024language,
+  title={A Language Modeling Approach to Diacritic-Free Hebrew TTS},
+  author={Roth, Amit and Turetzky, Arnon and Adi, Yossi},
+  journal={arXiv preprint arXiv:2407.12206},
+  year={2024}
 }
 ```
 
