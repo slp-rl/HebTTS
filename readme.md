@@ -51,6 +51,7 @@ pip install librosa
 pip install encodec
 pip install phonemizer
 pip install audiocraft  # optional
+pip install 'numpy<2'
 ```
 
 ## Inference
