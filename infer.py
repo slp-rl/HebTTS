@@ -89,14 +89,14 @@ def infer_texts(
             temperature=temperature,
         )
 
-        audio_path = Path(output_dir) / filename
+        audio_path = Path(output_dir) / f"{filename}.wav"
 
         if args.mbd:
             samples = audio_tokenizer.mbd_decode(encoded_frames.transpose(2, 1))
         else:
             samples = audio_tokenizer.decode([(encoded_frames.transpose(2, 1), None)])
 
-        torchaudio.save(audio_path.as_posix(), samples[0].cpu(), 24000)
+        torchaudio.save(audio_path.as_posix(), samples[0].cpu().detach(), 24000)
 
 def infer(checkpoint_path, output_dir, texts, prompt_text, prompt_audio, top_k=50, temperature=1, args=None):
 
